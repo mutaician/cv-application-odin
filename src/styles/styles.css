@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #C9DABF;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;   
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.cv-form {
+    max-width: 900px;
+    width: 100%;
+    padding: 32px;
+    border-radius: 10px;
+    background-color: #9CA986;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+}
+
+.cv-form h1{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+
+.cv-form h1 a{
+    text-decoration: none;
+    color: #399918;
+    font-size: 40px;
+    font-weight: 1400;
+}
+
+/* Form elements */
+.cv-form form {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.4em;
+}
+
+.cv-form form div {
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.cv-form label {
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.cv-form input,
+.cv-form textarea {
+    font-size: 1.2rem;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.cv-form input:focus,
+.cv-form textarea:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    outline: none;
+}
+
+
+.cv-form button {
+    width: 80%;
+    align-self: center;
+    font-size: 1.2rem;
+    margin-bottom: 16px;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.cv-form button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+.preview .cv-form button:active {
+    background-color: #004085;
+    transform: scale(1);
+}
+
+.preview {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #C9DABF;
+    border-radius: 64px;
+}
+
+.preview h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.preview h2 {
+    font-size: 18px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+    margin-top: 20px;
+}
+
+.preview .contact-info {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.preview .skills-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.preview .skills-grid ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.preview .job {
+    margin-bottom: 20px;
+}
+
+.preview .job-header {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+.preview .job-title {
+    font-style: italic;
+}
+
+.preview .education-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.preview .degree {
+    font-style: italic;
+}
+
+.preview ul {
+    padding-left: 20px;
+}
+
