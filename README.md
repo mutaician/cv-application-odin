@@ -12,7 +12,7 @@ This project is a CV (Curriculum Vitae) application built with React. It allows 
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/your-username/cv-application.git
+    git clone https://github.com/mutaician/cv-application-odin.git
     ```
 2. Navigate to the project directory:
     ```sh
